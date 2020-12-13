@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: #e5e5e5;
+}
+.section {
+  width: 50%;
+  text-align: justify;
+  padding: 20px;
+  border-radius: 0.8rem;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 1.3rem;
+}
+.content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+  margin-top: 5rem;
+}
+.content input {
+  border-radius: 0.5rem;
+  border: 1px;
+  padding: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.output {
+  text-align: center;
+}
+#btnCheck {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #0275d8;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+#btnYes,
+#btnNo {
+  width: 15%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  color: white;
+}
+
+#btnYes {
+  background-color: #1d831d;
+}
+#btnNo {
+  background-color: #d13c36;
+}
+#leapOut {
+  min-height: 2vh;
+}
+.prime {
+  display: none;
+  min-height: 5vh;
+}
+#primeOut,
+#leapOut {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #843b62;
+}
+.head {
+  color: #454e9e;
+}
+footer {
+  width: 100%;
+  background: black;
+  color: white;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  padding: 0.3rem;
+}
